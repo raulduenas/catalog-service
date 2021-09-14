@@ -38,4 +38,6 @@ public class Book extends PersistableEntity{
     @NotNull(message = "The book price must be defined.")
     @Positive(message = "The book price must be greater than zero.")
     private Double price;
+
+    private String publisher;
 }
